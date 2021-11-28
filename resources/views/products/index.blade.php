@@ -46,7 +46,7 @@
                                         <a href="{{ route('products.show', $product->id) }}"
                                             class="btn btn-info">Show</a>
                                         @can('product-edit')
-                                            <a href="{{ route('products.edit', $product->id) }}"
+                                            <a href="{{ route('products.edit', ['product' => $product->id]) }}"
                                                 class="btn btn-primary">Edit</a>
                                         @endcan
 

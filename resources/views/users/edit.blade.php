@@ -4,7 +4,7 @@
     <div class="row mb-5">
         <div class="col-12 d-flex justify-content-around">
             <div class="">
-                <h2>EDIT NEW LEARNER</h2>
+                <h2>EDIT NEW USER</h2>
             </div>
             <div class="">
                 <a href="{{ route('users.index') }}" class="btn btn-primary">Back</a>

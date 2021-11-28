@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-12 mb-3 d-flex justify-content-around">
             <div>
-                <h2>Show User</h2>
+                <h2>SHOW USER</h2>
             </div>
             <div>
                 <a href="{{ route('users.index') }}" class="btn btn-primary">Back</a>
